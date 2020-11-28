@@ -3,7 +3,7 @@ import PrintFormObject from "./PrintFormObject";
 
 const Form = () => {
   const nameRef = useRef("");
-  const mailRef = useRef("test@gmail.com");
+  const mailRef = useRef("");
   const tipoUsuarioRef = useRef();
 
   const [form, setForm] = useState({});

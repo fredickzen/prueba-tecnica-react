@@ -9,7 +9,7 @@ const Counter = () => {
         className="btn btn-warning"
         onClick={() => setStatusCount(!statusCount)}
       >
-        {`${statusCount ? "Desactivar" : "Activar"} contador`}
+        {`${statusCount ? "Ocultar" : "Ver"} contador`}
       </button>
       {statusCount && <PrintCounter />}
     </div>
